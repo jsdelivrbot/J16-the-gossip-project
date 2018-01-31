@@ -15,7 +15,7 @@ group :development, :test do
 end
 
 group :production do
-  gem 'pg', '0.20.0'
+  gem 'pg', '0.20.0' #la petite gem qui passe bien pour pouvoir faire interpréter son code par Heroku ;)
 end
 
 group :development do

@@ -1,5 +1,5 @@
 class GossipsController < ApplicationController
-
+#La responsabilité du controller c'est de contenir toutes les actions qui vont être orchestrées par l'ustilisateur
   def index
     @gossips = Gossip.all
   end
