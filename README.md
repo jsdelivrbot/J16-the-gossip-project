@@ -1,24 +1,7 @@
-# README
+# THE GOSSIP PROJECT
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+À The Hacking Project, il se passe plein de choses entre les moussaillons.
 
-Things you may want to cover:
+Il faut donc créer une plate-forme où tout le monde peut venir écrire des gossips, les éditer, et même les détruires.
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Bien entendu, tous les gossips seront affichés dans l'index des gossips.
