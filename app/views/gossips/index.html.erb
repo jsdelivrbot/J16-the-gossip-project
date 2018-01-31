@@ -1,7 +1,21 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" href="//cdn.rawgit.com/yegor256/tacit/gh-pages/tacit-css-VERSION.min.css"/>
-    <h1> Bienvenue sur The Gossip Project</h1>
+    <link rel="stylesheet" href="https://cdn.rawgit.com/yegor256/tacit/gh-pages/tacit-css-1.2.8.min.css"/>
+    <h1>Bienvenue sur The Gossip Project</h1>
   </head>
+  <table>
+  <tr>
+    <th>Auteur anonyme</th>
+    <th>Gossip</th>
+  </tr>
+
+  <% @gossips.each do |gossip| %>
+    <tr>
+      <td><%= gossip.anonymous_author %></td>
+      <td><%= gossip.content %></td>
+      <td><%= link_to 'Show', gossip_path(gossip) %></td>
+    </tr>
+  <% end %>
+</table>
 </html>
